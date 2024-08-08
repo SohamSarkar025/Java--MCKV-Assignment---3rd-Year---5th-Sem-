@@ -1,3 +1,10 @@
+
+
+//Write a java program to swap two variables with and without using third variable. 
+
+
+//This is using 3rd variable
+
 import java.util.Scanner;
 public class Assg2a {
     public static void main(String[] args) {

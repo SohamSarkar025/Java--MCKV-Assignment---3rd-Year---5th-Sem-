@@ -12,7 +12,7 @@ class Assg4b{
         System.out.println("The fibonacci numbers are till "+number+" terms..");
         in.close();
         int num1=0 ,num2=1;
-        while(num1<=number){
+        for(int i=1;i<=number;i++){
             System.out.print(num1+", ");
             int num3=num1+num2;
             num1=num2;

@@ -1,3 +1,9 @@
+
+
+//Write a java program which will take radius of a Circle as user input and calculate area and perimeter to display 
+//the results.
+
+
 import java.util.Scanner;
 public class Assg1b{
        public static void main(String[] args){
