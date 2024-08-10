@@ -17,7 +17,7 @@ public static void main(String args[]){
      sum=(sum*10)+r;    
      n=n/10;    
     }    
-    if(temp==sum)    
+    if(temp==sum)   
      System.out.println("palindrome number & the reverse is "+sum);    
     else    
      System.out.println("not palindrome & the reverse is "+sum);    
