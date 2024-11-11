@@ -15,15 +15,18 @@ public class Assg4c {
         for(i=lower;i<=upper;i++){
             for(j=2;j<i;j++){
                 if(i%j==0){
-                    flag=0;
-                    break;
+                    if(i==2){
+                        System.out.println(i+", ");
+                        break;
+                    }
+                    else{
+                        
+                    }
+                  
                 }
                 else{
-                    flag=1;
+                    System.out.println(i+", ");
                 }
-            }
-            if(flag==1){
-                System.out.print(i+", ");
             }
         } 
     }
